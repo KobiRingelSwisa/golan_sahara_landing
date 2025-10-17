@@ -79,13 +79,13 @@ const TrustBar: React.FC = () => {
   return (
     <div className="bg-sand py-8">
       <div className="container-max">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {trustItems.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-center p-4 rounded-2xl border border-line bg-white hover:shadow-food transition-all duration-200"
+              className="flex flex-col items-center text-center p-6 rounded-2xl border border-line bg-white hover:shadow-food transition-all duration-200"
             >
-              <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-3">
+              <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-4">
                 {item.icon}
               </div>
               <p className="text-small font-medium text-ink">{item.label}</p>

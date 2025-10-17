@@ -15,7 +15,7 @@ export default function Home() {
               <div className="flex justify-center lg:justify-end mb-8">
                 <Logo size="lg" />
               </div>
-              <h1 className="text-[2rem] leading-[2.5rem] md:text-[3rem] md:leading-[3.5rem] font-bold text-charcoal mb-6 max-w-[18ch] mx-auto lg:mx-0">
+              <h1 className="text-[2rem] leading-[2.5rem] md:text-[3rem] md:leading-[3.5rem] font-bold text-charcoal mb-8 max-w-[18ch] mx-auto lg:mx-0">
                 סהרה קייטרינג
                 <br />
                 <span className="text-gold">לאירועים</span>
@@ -23,7 +23,7 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-ink mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
                 חוויה קולינרית ייחודית עם טעמים מסורתיים ומודרניים
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-end">
+              <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-end">
                 <Link href="/menu" className="btn btn-primary">
                   צפה בתפריט
                 </Link>
@@ -63,9 +63,9 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="card p-8">
-              <div className="flex items-center mb-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="card p-10">
+              <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold ml-4">
                   <svg
                     className="w-6 h-6"
@@ -86,8 +86,8 @@ export default function Home() {
               </blockquote>
             </div>
 
-            <div className="card p-8">
-              <div className="flex items-center mb-4">
+            <div className="card p-10">
+              <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold ml-4">
                   <svg
                     className="w-6 h-6"

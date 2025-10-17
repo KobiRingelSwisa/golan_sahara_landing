@@ -35,12 +35,12 @@ const Header: React.FC = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-6 space-x-reverse">
+              <div className="hidden md:flex items-center space-x-8 space-x-reverse">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className={`px-4 py-2 rounded-lg text-body font-medium transition-all duration-200 ${
+                className={`px-6 py-3 rounded-lg text-body font-medium transition-all duration-200 ${
                   isActive(item.href)
                     ? "text-gold bg-gold/10"
                     : "text-ink hover:text-gold hover:bg-gold/5"

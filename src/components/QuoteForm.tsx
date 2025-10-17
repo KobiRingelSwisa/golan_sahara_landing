@@ -90,7 +90,7 @@ ${data.message}
     <section className="py-12 md:py-20 bg-sand">
       <div className="container-max">
         <div className="max-w-2xl mx-auto">
-          <div className="card p-8">
+          <div className="card p-10">
             <div className="text-center mb-8">
               <h2 className="mb-4">קבלו הצעת מחיר מותאמת אישית</h2>
               <p className="text-body text-ink">
@@ -98,8 +98,8 @@ ${data.message}
               </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <form onSubmit={handleSubmit} className="space-y-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Name */}
                 <div>
                   <label htmlFor="name" className="sr-only">
@@ -151,7 +151,7 @@ ${data.message}
                 />
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {/* Event Type */}
                 <div>
                   <label htmlFor="eventType" className="sr-only">
