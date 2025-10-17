@@ -9,41 +9,27 @@ export default function Home() {
       {/* Hero Section */}
       <section className="py-12 md:py-20">
         <div className="container-max">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="max-w-4xl mx-auto text-center">
             {/* Text Content */}
-            <div className="text-right lg:order-2">
-              <div className="flex justify-center lg:justify-end mb-8">
+            <div className="text-center">
+              <div className="flex justify-center mb-8">
                 <Logo size="lg" />
               </div>
-              <h1 className="text-[2rem] leading-[2.5rem] md:text-[3rem] md:leading-[3.5rem] font-bold text-charcoal mb-8 max-w-[18ch] mx-auto lg:mx-0">
+              <h1 className="text-[2rem] leading-[2.5rem] md:text-[3rem] md:leading-[3.5rem] font-bold text-charcoal mb-8 max-w-[18ch] mx-auto">
                 סהרה קייטרינג
                 <br />
                 <span className="text-gold">לאירועים</span>
               </h1>
-              <p className="text-xl md:text-2xl text-ink mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
+              <p className="text-xl md:text-2xl text-ink mb-8 leading-relaxed max-w-lg mx-auto">
                 חוויה קולינרית ייחודית עם טעמים מסורתיים ומודרניים
               </p>
-              <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-end">
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <Link href="/menu" className="btn btn-primary">
                   צפה בתפריט
                 </Link>
                 <Link href="/contact" className="btn btn-outline">
                   צור קשר
                 </Link>
-              </div>
-            </div>
-
-            {/* Logo Display */}
-            <div className="lg:order-1">
-              <div className="aspect-[4/3] bg-gradient-to-br from-gold/10 to-gold/20 rounded-2xl overflow-hidden flex items-center justify-center p-8">
-                <div className="text-center">
-                  <div className="w-48 h-48 mx-auto mb-6">
-                    <Logo size="lg" />
-                  </div>
-                  <p className="text-ink/60 text-xl font-medium">
-                    קייטרינג לאירועים
-                  </p>
-                </div>
               </div>
             </div>
           </div>
