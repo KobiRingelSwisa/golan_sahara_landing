@@ -26,7 +26,7 @@ const MenuGrid: React.FC<MenuGridProps> = ({ menu }) => {
   return (
     <div className="space-y-16">
       {menu.map((category, categoryIndex) => (
-        <div key={categoryIndex}>
+        <div key={categoryIndex} id={category.category.replace(/\s+/g, "-")}>
           {/* Category Header */}
           <div className="text-center mb-12">
             <h2 className="mb-4">{category.category}</h2>

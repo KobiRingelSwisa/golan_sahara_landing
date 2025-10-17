@@ -118,16 +118,9 @@ h3 {
 }
 
 /* Focus styles for accessibility */
-*:focus {
-  outline: none;
-  ring: 2px;
-  ring-color: rgba(199, 161, 66, 0.6);
-  ring-offset: 2px;
-}
-
-/* Smooth transitions */
-* {
-  transition: all 0.2s ease-out;
+*:focus-visible {
+  outline: 2px solid rgba(199, 161, 66, 0.6);
+  outline-offset: 2px;
 }
 
 /* Custom scrollbar */

@@ -15,7 +15,7 @@ export default function Home() {
               <div className="flex justify-center lg:justify-end mb-8">
                 <Logo size="lg" />
               </div>
-              <h1 className="text-4xl md:text-6xl font-bold text-charcoal mb-6 leading-tight">
+              <h1 className="text-[2rem] leading-[2.5rem] md:text-[3rem] md:leading-[3.5rem] font-bold text-charcoal mb-6 max-w-[18ch] mx-auto lg:mx-0">
                 סהרה קייטרינג
                 <br />
                 <span className="text-gold">לאירועים</span>
