@@ -6,26 +6,27 @@ export default function AboutPage() {
     <div className="min-h-screen bg-white">
       {/* Header Section */}
       <section className="py-12 md:py-20 bg-sand">
-        <div className="container-max text-center">
-          <div className="flex justify-center mb-8">
-            <Logo size="lg" />
+        <div className="container-max">
+          <div className="text-center max-w-4xl mx-auto">
+            <div className="flex justify-center mb-8">
+              <Logo size="lg" />
+            </div>
+            <h1 className="text-h1 md:text-h1-md mb-6">אודות סהרה</h1>
+            <p className="text-xl md:text-2xl text-ink max-w-2xl mx-auto leading-relaxed">
+              חוויה קולינרית ייחודית המשלבת מסורת וחדשנות
+            </p>
           </div>
-          <h1 className="mb-4">אודות סהרה</h1>
-          <p className="text-xl md:text-2xl text-ink max-w-3xl mx-auto">
-            חוויה קולינרית ייחודית המשלבת מסורת וחדשנות
-          </p>
         </div>
       </section>
 
       {/* Main Content */}
       <section className="py-12 md:py-20">
         <div className="container-max">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            {/* Text Content */}
-            <div className="space-y-12">
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center space-y-12">
               <div>
-                <h2 className="mb-6">הסיפור שלנו</h2>
-                <div className="space-y-6 text-body text-ink leading-relaxed">
+                <h2 className="text-h2 md:text-h2-md mb-6">הסיפור שלנו</h2>
+                <div className="space-y-6 text-body text-ink leading-relaxed max-w-3xl mx-auto">
                   <p>
                     סהרה קייטרינג נוסדה מתוך אהבה עמוקה למטבח המסורתי והמודרני
                     כאחד. אנו מאמינים שכל אירוע הוא הזדמנות ליצור חוויה קולינרית
@@ -43,117 +44,50 @@ export default function AboutPage() {
               </div>
 
               <div>
-                <h3 className="mb-6">הערכים שלנו</h3>
-                <ul className="space-y-4">
-                  <li className="flex items-start">
-                    <span className="text-gold font-bold ml-3 text-xl">•</span>
-                    <span className="text-body text-ink">
-                      איכות גבוהה בכל מנה ומנה
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold font-bold ml-3 text-xl">•</span>
-                    <span className="text-body text-ink">
-                      כשרות למהדרין תחת השגחה קפדנית
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold font-bold ml-3 text-xl">•</span>
-                    <span className="text-body text-ink">
-                      שירות מקצועי ואדיב לכל לקוח
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold font-bold ml-3 text-xl">•</span>
-                    <span className="text-body text-ink">
-                      חומרי גלם טריים ואיכותיים
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="text-gold font-bold ml-3 text-xl">•</span>
-                    <span className="text-body text-ink">
-                      גמישות בהתאמה לצרכים המיוחדים
-                    </span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Visual Content */}
-            <div className="space-y-8">
-              {/* Portrait Placeholder */}
-              <div className="aspect-[3/4] bg-gradient-to-br from-gold/10 to-gold/20 rounded-2xl overflow-hidden">
-                <div className="w-full h-full flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-24 h-24 bg-gold/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                      <svg
-                        className="w-12 h-12 text-gold"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                        />
-                      </svg>
-                    </div>
-                    <p className="text-ink/60">תמונה של השף</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Badges */}
-              <div className="grid grid-cols-1 gap-4">
-                <div className="chip">
-                  <svg
-                    className="w-5 h-5 text-success ml-2"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                  כשר למהדרין
-                </div>
-                <div className="chip">
-                  <svg
-                    className="w-5 h-5 text-gold ml-2"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                    />
-                  </svg>
-                  התאמה לאלרגיות
-                </div>
-                <div className="chip">
-                  <svg
-                    className="w-5 h-5 text-gold ml-2"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-                    />
-                  </svg>
-                  שירות אישי
+                <h3 className="text-h3 md:text-h3-md mb-6">הערכים שלנו</h3>
+                <div className="max-w-2xl mx-auto">
+                  <ul className="space-y-4 text-center">
+                    <li className="flex items-center justify-center">
+                      <span className="text-gold font-bold ml-3 text-xl">
+                        •
+                      </span>
+                      <span className="text-body text-ink">
+                        איכות גבוהה בכל מנה ומנה
+                      </span>
+                    </li>
+                    <li className="flex items-center justify-center">
+                      <span className="text-gold font-bold ml-3 text-xl">
+                        •
+                      </span>
+                      <span className="text-body text-ink">
+                        כשרות למהדרין תחת השגחה קפדנית
+                      </span>
+                    </li>
+                    <li className="flex items-center justify-center">
+                      <span className="text-gold font-bold ml-3 text-xl">
+                        •
+                      </span>
+                      <span className="text-body text-ink">
+                        שירות מקצועי ואדיב לכל לקוח
+                      </span>
+                    </li>
+                    <li className="flex items-center justify-center">
+                      <span className="text-gold font-bold ml-3 text-xl">
+                        •
+                      </span>
+                      <span className="text-body text-ink">
+                        חומרי גלם טריים ואיכותיים
+                      </span>
+                    </li>
+                    <li className="flex items-center justify-center">
+                      <span className="text-gold font-bold ml-3 text-xl">
+                        •
+                      </span>
+                      <span className="text-body text-ink">
+                        גמישות בהתאמה לצרכים המיוחדים
+                      </span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -161,12 +95,71 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
+      {/* Badges Section */}
       <section className="py-12 md:py-20 bg-sand">
         <div className="container-max">
-          <div className="text-center mb-12">
-            <h2 className="mb-4">הצוות שלנו</h2>
-            <p className="text-xl text-ink max-w-2xl mx-auto">
+          <div className="text-center max-w-4xl mx-auto">
+            <h2 className="text-h2 md:text-h2-md mb-8">התמחויות שלנו</h2>
+            <div className="flex flex-wrap justify-center gap-4">
+              <div className="chip">
+                <svg
+                  className="w-5 h-5 text-success ml-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                כשר למהדרין
+              </div>
+              <div className="chip">
+                <svg
+                  className="w-5 h-5 text-gold ml-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                התאמה לאלרגיות
+              </div>
+              <div className="chip">
+                <svg
+                  className="w-5 h-5 text-gold ml-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                שירות אישי
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Section */}
+      <section className="py-12 md:py-20">
+        <div className="container-max">
+          <div className="text-center mb-12 max-w-4xl mx-auto">
+            <h2 className="text-h2 md:text-h2-md mb-6">הצוות שלנו</h2>
+            <p className="text-xl text-ink max-w-2xl mx-auto leading-relaxed">
               צוות מקצועי ומנוסה המחויב להעניק לכם את החוויה הקולינרית הטובה
               ביותר
             </p>
@@ -251,24 +244,28 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-12 md:py-20">
-        <div className="container-max text-center">
-          <h2 className="mb-6">מוכנים לחוות את ההבדל?</h2>
-          <p className="text-xl text-ink mb-8 max-w-2xl mx-auto">
-            צרו איתנו קשר עוד היום ונתחיל לתכנן את האירוע המושלם שלכם
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://wa.me/972501234567"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              שלח הודעה ב-WhatsApp
-            </a>
-            <a href="tel:+972501234567" className="btn btn-outline">
-              התקשר עכשיו
-            </a>
+      <section className="py-12 md:py-20 bg-sand">
+        <div className="container-max">
+          <div className="text-center max-w-4xl mx-auto">
+            <h2 className="text-h2 md:text-h2-md mb-6">
+              מוכנים לחוות את ההבדל?
+            </h2>
+            <p className="text-xl text-ink mb-8 max-w-2xl mx-auto leading-relaxed">
+              צרו איתנו קשר עוד היום ונתחיל לתכנן את האירוע המושלם שלכם
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="https://wa.me/972501234567"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+              >
+                שלח הודעה ב-WhatsApp
+              </a>
+              <a href="tel:+972501234567" className="btn btn-outline">
+                התקשר עכשיו
+              </a>
+            </div>
           </div>
         </div>
       </section>

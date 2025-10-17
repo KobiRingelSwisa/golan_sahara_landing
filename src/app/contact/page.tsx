@@ -103,14 +103,16 @@ ${data.message}
     <div className="min-h-screen bg-white">
       {/* Header Section */}
       <section className="py-12 md:py-20 bg-sand">
-        <div className="container-max text-center">
-          <div className="flex justify-center mb-8">
-            <Logo size="lg" />
+        <div className="container-max">
+          <div className="text-center max-w-4xl mx-auto">
+            <div className="flex justify-center mb-8">
+              <Logo size="lg" />
+            </div>
+            <h1 className="text-h1 md:text-h1-md mb-6">צור קשר</h1>
+            <p className="text-xl md:text-2xl text-ink max-w-2xl mx-auto leading-relaxed">
+              נשמח לעזור לכם לתכנן את האירוע המושלם
+            </p>
           </div>
-          <h1 className="mb-4">צור קשר</h1>
-          <p className="text-xl md:text-2xl text-ink max-w-3xl mx-auto">
-            נשמח לעזור לכם לתכנן את האירוע המושלם
-          </p>
         </div>
       </section>
 
@@ -133,9 +135,9 @@ ${data.message}
       {/* Service Areas */}
       <section className="py-12 md:py-20 bg-sand">
         <div className="container-max">
-          <div className="text-center mb-12">
-            <h2 className="mb-4">אזורי שירות</h2>
-            <p className="text-xl text-ink max-w-2xl mx-auto">
+          <div className="text-center mb-12 max-w-4xl mx-auto">
+            <h2 className="text-h2 md:text-h2-md mb-6">אזורי שירות</h2>
+            <p className="text-xl text-ink max-w-2xl mx-auto leading-relaxed">
               אנו מספקים שירותי קייטרינג בכל רחבי הארץ
             </p>
           </div>
@@ -153,6 +155,13 @@ ${data.message}
       {/* Contact Information */}
       <section className="py-12 md:py-20">
         <div className="container-max">
+          <div className="text-center mb-12 max-w-4xl mx-auto">
+            <h2 className="text-h2 md:text-h2-md mb-6">פרטי יצירת קשר</h2>
+            <p className="text-xl text-ink max-w-2xl mx-auto leading-relaxed">
+              צרו איתנו קשר בכל דרך הנוחה לכם
+            </p>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Phone */}
             <div className="card p-8 text-center">

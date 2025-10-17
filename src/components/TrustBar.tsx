@@ -79,7 +79,7 @@ const TrustBar: React.FC = () => {
   return (
     <div className="bg-sand py-8">
       <div className="container-max">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
           {trustItems.map((item, index) => (
             <div
               key={index}

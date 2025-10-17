@@ -28,14 +28,10 @@ const Header: React.FC = () => {
             className="flex items-center space-x-3 space-x-reverse"
           >
             <Logo size="md" />
-            <div className="text-right">
-              <h1 className="text-xl font-bold text-gold">סהרה</h1>
-              <p className="text-small text-ink">קייטרינג לאירועים</p>
-            </div>
           </Link>
 
           {/* Desktop Navigation */}
-              <div className="hidden md:flex items-center space-x-8 space-x-reverse">
+          <div className="hidden md:flex items-center justify-center gap-5 md:gap-7 lg:gap-10">
             {navigation.map((item) => (
               <Link
                 key={item.name}
