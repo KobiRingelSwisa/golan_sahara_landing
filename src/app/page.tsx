@@ -118,8 +118,8 @@ export default function Home() {
                 </div>
               </div>
               <blockquote className="text-lg text-ink italic leading-relaxed text-center">
-                "המנות היו מדהימות! כל האורחים התפעלו מהטעמים והאיכות. השירות
-                היה מקצועי וכל פרט טופל בצורה מושלמת."
+                &ldquo;המנות היו מדהימות! כל האורחים התפעלו מהטעמים והאיכות. השירות
+                היה מקצועי וכל פרט טופל בצורה מושלמת.&rdquo;
               </blockquote>
             </div>
 
@@ -143,8 +143,8 @@ export default function Home() {
                 </div>
               </div>
               <blockquote className="text-lg text-ink italic leading-relaxed text-center">
-                "התפריט היה מגוון וכל המנות היו טעימות מאוד. הצוות היה אדיב ועזר
-                לנו בכל מה שנדרש. בהחלט נחזור!"
+                &ldquo;התפריט היה מגוון וכל המנות היו טעימות מאוד. הצוות היה אדיב ועזר
+                לנו בכל מה שנדרש. בהחלט נחזור!&rdquo;
               </blockquote>
             </div>
           </div>
