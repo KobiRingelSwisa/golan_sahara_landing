@@ -31,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="he" dir="rtl">
+    <html lang="he" dir="rtl" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -42,6 +42,7 @@ export default function RootLayout({
       </head>
       <body
         className={`${heebo.variable} font-heebo antialiased bg-white text-charcoal`}
+        suppressHydrationWarning
       >
         <div className="min-h-screen flex flex-col">
           <Header />
