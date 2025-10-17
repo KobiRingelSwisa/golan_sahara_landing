@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "@/components/Logo";
 import QuoteForm from "@/components/QuoteForm";
 
+export default function ContactPage() {
   const serviceAreas = [
     "תל אביב והמרכז",
     "ירושלים והסביבה",
