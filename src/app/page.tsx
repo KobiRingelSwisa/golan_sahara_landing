@@ -1,103 +1,118 @@
-import Image from "next/image";
+import Link from "next/link";
+import Logo from "@/components/Logo";
+import TrustBar from "@/components/TrustBar";
+import QuoteForm from "@/components/QuoteForm";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="py-12 md:py-20">
+        <div className="container-max">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Text Content */}
+            <div className="text-right lg:order-2">
+              <div className="flex justify-center lg:justify-end mb-8">
+                <Logo size="lg" />
+              </div>
+              <h1 className="text-4xl md:text-6xl font-bold text-charcoal mb-6 leading-tight">
+                סהרה קייטרינג
+                <br />
+                <span className="text-gold">לאירועים</span>
+              </h1>
+              <p className="text-xl md:text-2xl text-ink mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
+                חוויה קולינרית ייחודית עם טעמים מסורתיים ומודרניים
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-end">
+                <Link href="/menu" className="btn btn-primary">
+                  צפה בתפריט
+                </Link>
+                <Link href="/contact" className="btn btn-outline">
+                  צור קשר
+                </Link>
+              </div>
+            </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+            {/* Logo Display */}
+            <div className="lg:order-1">
+              <div className="aspect-[4/3] bg-gradient-to-br from-gold/10 to-gold/20 rounded-2xl overflow-hidden flex items-center justify-center p-8">
+                <div className="text-center">
+                  <div className="w-48 h-48 mx-auto mb-6">
+                    <Logo size="lg" />
+                  </div>
+                  <p className="text-ink/60 text-xl font-medium">
+                    קייטרינג לאירועים
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </section>
+
+      {/* Trust Bar */}
+      <TrustBar />
+
+      {/* Testimonials Section */}
+      <section className="py-12 md:py-20 bg-sand">
+        <div className="container-max">
+          <div className="text-center mb-12">
+            <h2 className="mb-4">מה הלקוחות שלנו אומרים</h2>
+            <p className="text-body text-ink max-w-2xl mx-auto">
+              המלצות אמיתיות מלקוחות מרוצים שהפכו את האירוע שלהם לבלתי נשכח
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="card p-8">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold ml-4">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-charcoal">רחל כהן</h4>
+                  <p className="text-small text-ink/60">חתונה</p>
+                </div>
+              </div>
+              <blockquote className="text-body text-ink italic">
+                "המנות היו מדהימות! כל האורחים התפעלו מהטעמים והאיכות. השירות
+                היה מקצועי וכל פרט טופל בצורה מושלמת."
+              </blockquote>
+            </div>
+
+            <div className="card p-8">
+              <div className="flex items-center mb-4">
+                <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold ml-4">
+                  <svg
+                    className="w-6 h-6"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h4v10h-10z" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold text-charcoal">דוד לוי</h4>
+                  <p className="text-small text-ink/60">בר מצווה</p>
+                </div>
+              </div>
+              <blockquote className="text-body text-ink italic">
+                "התפריט היה מגוון וכל המנות היו טעימות מאוד. הצוות היה אדיב ועזר
+                לנו בכל מה שנדרש. בהחלט נחזור!"
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Quote Form */}
+      <QuoteForm />
     </div>
   );
 }

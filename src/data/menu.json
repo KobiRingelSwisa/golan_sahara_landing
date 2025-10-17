@@ -1,0 +1,271 @@
+{
+  "menu": [
+    {
+      "category": "סלטים",
+      "category_en": "Salads",
+      "pricing_unit": "מחיר לק\"ג",
+      "pricing_unit_en": "Price per kg",
+      "items": [
+        {
+          "name": "סלט גזר מרוקאי",
+          "name_en": "Moroccan Carrot Salad",
+          "price": 40
+        },
+        {
+          "name": "סלט גזר סיני פיקנטי",
+          "name_en": "Spicy Chinese Carrot Salad",
+          "price": 40
+        },
+        { "name": "סלט מטבוחה", "name_en": "Matbucha Salad", "price": 65 },
+        {
+          "name": "סלט עגבניות חריף",
+          "name_en": "Spicy Tomato Salad",
+          "price": 55
+        },
+        { "name": "סלט סלק", "name_en": "Beetroot Salad", "price": 60 },
+        {
+          "name": "סלט כרוב לבן",
+          "name_en": "White Cabbage Salad",
+          "price": 40
+        },
+        {
+          "name": "סלט כרוב אדום",
+          "name_en": "Red Cabbage Salad",
+          "price": 40
+        },
+        {
+          "name": "סלט כרוב אדום במיונז",
+          "name_en": "Red Cabbage Salad with Mayonnaise",
+          "price": 50
+        },
+        {
+          "name": "סלט פלפלים קלויים",
+          "name_en": "Roasted Pepper Salad",
+          "price": 60
+        },
+        {
+          "name": "סלט פלפל חריף קלוי",
+          "name_en": "Roasted Spicy Pepper Salad",
+          "price": 60
+        },
+        {
+          "name": "סלט חציל בטחינה",
+          "name_en": "Eggplant Salad with Tahini",
+          "price": 60
+        },
+        {
+          "name": "סלט חציל מטוגן",
+          "name_en": "Fried Eggplant Salad",
+          "price": 60
+        },
+        {
+          "name": "סלט חציל במיונז",
+          "name_en": "Eggplant Salad with Mayonnaise",
+          "price": 60
+        },
+        {
+          "name": "סלט חמוצים ביתיים",
+          "name_en": "Homemade Pickles Salad",
+          "price": 50
+        },
+        { "name": "סלט טחינה", "name_en": "Tahini Salad", "price": 60 },
+        {
+          "name": "סלט חומוס ביתי",
+          "name_en": "Homemade Hummus Salad",
+          "price": 60
+        },
+        { "name": "סלט טבולה", "name_en": "Tabbouleh Salad", "price": 50 },
+        {
+          "name": "סלט כבד קצוץ",
+          "name_en": "Chopped Liver Salad",
+          "price": 60
+        },
+        {
+          "name": "סלט עלים ירוקים",
+          "name_en": "Green Leaf Salad",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "category": "עיקריות",
+      "category_en": "Main Courses",
+      "pricing_unit": "מחיר",
+      "pricing_unit_en": "Price",
+      "items": [
+        {
+          "name": "כרעיים עוף (4 יחידות)",
+          "name_en": "Chicken Thighs (4 units)",
+          "price": 120
+        },
+        {
+          "name": "מעורב ירושלמי (1 ק\"ג)",
+          "name_en": "Jerusalem Mixed Grill (1 kg)",
+          "price": 120
+        },
+        {
+          "name": "שווארמה פרגית (1 ק\"ג)",
+          "name_en": "Chicken Shawarma (1 kg)",
+          "price": 140
+        },
+        {
+          "name": "כבדי עוף ברוטב יין (1 ק\"ג)",
+          "name_en": "Chicken Livers in Wine Sauce (1 kg)",
+          "price": 100
+        },
+        {
+          "name": "סטיק פרגית על האש (4 יחידות)",
+          "name_en": "Chicken Steak on the Grill (4 units)",
+          "price": 150
+        },
+        {
+          "name": "קציצות בקר ברוטב עגבניות (1 ק\"ג)",
+          "name_en": "Beef Patties in Tomato Sauce (1 kg)",
+          "price": 120
+        },
+        {
+          "name": "פרגית ממולאת באורז ופירות יבשים (4 מנות)",
+          "name_en": "Stuffed Chicken Thighs with Rice and Dried Fruits (4 portions)",
+          "price": 160
+        },
+        {
+          "name": "שניצל עוף ביתי (5 יחידות)",
+          "name_en": "Homemade Chicken Schnitzel (5 units)",
+          "price": 110
+        },
+        {
+          "name": "קבב טלה על האש (10 יחידות)",
+          "name_en": "Lamb Kebab on the Grill (10 units)",
+          "price": 100
+        },
+        {
+          "name": "בשר ראש בטיבול פיקנטי (1 ק\"ג)",
+          "name_en": "Beef Head in Spicy Seasoning (1 kg)",
+          "price": 200
+        },
+        {
+          "name": "צלי בקר ברוטב פטריות (4 מנות)",
+          "name_en": "Roasted Beef in Mushroom Sauce (4 portions)",
+          "price": 150
+        },
+        {
+          "name": "אסדו בלווי ירקות שורש (1 ק\"ג)",
+          "name_en": "Asado with Root Vegetables (1 kg)",
+          "price": 180
+        },
+        {
+          "name": "בשר בקר בלווי חומוס פיקנטי (1 ק\"ג)",
+          "name_en": "Beef with Spicy Hummus (1 kg)",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "category": "תוספות",
+      "category_en": "Sides",
+      "pricing_unit": "מחיר",
+      "pricing_unit_en": "Price",
+      "pricing_notes": "מחיר למנה / יחידה, עם הנחה להזמנות גדולות (0.5-7 ק\"ג)",
+      "pricing_notes_en": "Price per portion/unit, with discount for bulk orders (0.5-7 kg)",
+      "items": [
+        {
+          "name": "אורז לבן בלווי שקדים וצימוקים",
+          "name_en": "White Rice with Almonds and Raisins",
+          "price_per_portion": 50,
+          "price_bulk_discount": 30
+        },
+        {
+          "name": "אורז מג'דרה (עדשים ובצל מטוגן)",
+          "name_en": "Mujadara Rice (Lentils and Fried Onion)",
+          "price_per_portion": 60,
+          "price_bulk_discount": 40
+        },
+        {
+          "name": "ריזוטו סהרה (בצל ופטריות)",
+          "name_en": "Sahara Risotto (Onion and Mushrooms)",
+          "price_per_portion": 60,
+          "price_bulk_discount": 40
+        },
+        {
+          "name": "קוסקוס + מרק לקוסקוס",
+          "name_en": "Couscous + Couscous Soup",
+          "price_per_portion": 60,
+          "price_bulk_discount": 40
+        },
+        {
+          "name": "שעועית ירוקה מוקפצת",
+          "name_en": "Stir-fried Green Beans",
+          "price_per_portion": 60,
+          "price_bulk_discount": 40
+        },
+        {
+          "name": "זיתים מרוקאיים",
+          "name_en": "Moroccan Olives",
+          "price_per_portion": 70,
+          "price_bulk_discount": 45
+        },
+        {
+          "name": "תפוחי אדמה אפויים בעשבי תיבול",
+          "name_en": "Baked Potatoes with Herbs",
+          "price_per_portion": 60,
+          "price_bulk_discount": 40
+        },
+        {
+          "name": "דואט תפ\"א ובטטה אפויים",
+          "name_en": "Baked Potato and Sweet Potato Duet",
+          "price_per_portion": 70,
+          "price_bulk_discount": 50
+        },
+        {
+          "name": "ירקות אנטי פסטי",
+          "name_en": "Antipasti Vegetables",
+          "price_per_portion": 70,
+          "price_bulk_discount": 50
+        }
+      ]
+    },
+    {
+      "category": "מנות ראשונות",
+      "category_en": "First Courses",
+      "pricing_unit": "מחיר",
+      "pricing_unit_en": "Price",
+      "items": [
+        {
+          "name": "רול טלה בלווי רוטב אסייתי (5 יחידות)",
+          "name_en": "Lamb Roll with Asian Sauce (5 units)",
+          "price": 100
+        },
+        {
+          "name": "בצק פילו בעטיפת חזה עוף",
+          "name_en": "Phyllo Dough with Chicken Breast Wrap",
+          "price": 100
+        },
+        {
+          "name": "מוקפץ בירקות (5 יחידות)",
+          "name_en": "Stir-fry with Vegetables (5 units)",
+          "price": 125
+        },
+        {
+          "name": "כנאפה כבש במלווי שקדים קלויים (5 יחידות)",
+          "name_en": "Lamb Kanafeh with Roasted Almonds (5 units)",
+          "price": 125
+        },
+        {
+          "name": "פסטיה במלוי פרגית וירקות",
+          "name_en": "Pastilla with Chicken and Vegetables",
+          "price": 125
+        },
+        {
+          "name": "מוקפצים (5 יחידות)",
+          "name_en": "Stir-fries (5 units)",
+          "price": 125
+        },
+        {
+          "name": "פטריות פורטבלו במילוי בשר בקר",
+          "name_en": "Portobello Mushrooms Stuffed with Beef",
+          "price": 130
+        }
+      ]
+    }
+  ]
+}
