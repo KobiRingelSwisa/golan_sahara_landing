@@ -1,7 +1,4 @@
-"use client";
-
 import React from "react";
-import Image from "next/image";
 
 interface LogoProps {
   className?: string;
@@ -16,13 +13,11 @@ const Logo: React.FC<LogoProps> = ({ className = "", size = "md" }) => {
   };
 
   return (
-    <div className={`${sizeClasses[size]} ${className} relative`}>
-      <Image
+    <div className={`${sizeClasses[size]} ${className} flex items-center justify-center`}>
+      <img
         src="/logo.png"
         alt="סהרה - לוגו"
-        fill
-        className="object-contain"
-        priority
+        className="w-full h-full object-contain"
       />
     </div>
   );
