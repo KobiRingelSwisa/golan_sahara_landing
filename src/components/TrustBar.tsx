@@ -77,23 +77,25 @@ const TrustBar: React.FC = () => {
   ];
 
   return (
-    <div className="bg-sand py-8">
-      <div className="container-max">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+    <section className="py-16 md:py-24 bg-sand">
+      <div className="container mx-auto px-4">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 max-w-4xl mx-auto">
           {trustItems.map((item, index) => (
             <div
               key={index}
-              className="flex flex-col items-center text-center p-6 rounded-2xl border border-line bg-white hover:shadow-food transition-all duration-200"
+              className="rounded-2xl bg-white ring-1 ring-slate-200 shadow-sm overflow-hidden p-5 flex flex-col items-center justify-center text-center hover:shadow-food transition-all duration-200"
             >
-              <div className="w-12 h-12 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-4">
+              <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center text-gold mb-8 mx-auto">
                 {item.icon}
               </div>
-              <p className="text-small font-medium text-ink">{item.label}</p>
+              <p className="text-small font-medium text-ink text-center">
+                {item.label}
+              </p>
             </div>
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

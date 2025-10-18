@@ -41,7 +41,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${heebo.variable} font-heebo antialiased bg-white text-charcoal`}
+        className={`${heebo.variable} font-sans text-slate-800 leading-relaxed antialiased bg-white`}
         suppressHydrationWarning
       >
         <div className="min-h-screen flex flex-col">

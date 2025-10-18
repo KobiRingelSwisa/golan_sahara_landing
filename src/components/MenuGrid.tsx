@@ -29,10 +29,12 @@ const MenuGrid: React.FC<MenuGridProps> = ({ menu }) => {
         <div key={categoryIndex} id={category.category.replace(/\s+/g, "-")}>
           {/* Category Header */}
           <div className="text-center mb-12">
-            <h2 className="mb-4">{category.category}</h2>
-            <p className="text-body text-ink mb-2">{category.pricing_unit}</p>
+            <h2 className="mb-4 text-center">{category.category}</h2>
+            <p className="text-body text-ink mb-2 text-center">
+              {category.pricing_unit}
+            </p>
             {category.pricing_notes && (
-              <p className="text-small text-ink/60 italic">
+              <p className="text-small text-ink/60 italic text-center">
                 {category.pricing_notes}
               </p>
             )}
