@@ -61,7 +61,7 @@ export default function MenuPage() {
               >
                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
               </svg>
-              <span className="text-xl font-bold">בס"ד</span>
+              <span className="text-xl font-bold">בס&rdquo;ד</span>
             </div>
             <p className="text-lg text-ink/60">תפריט קייטרינג - 2 Page</p>
           </div>
@@ -101,19 +101,19 @@ export default function MenuPage() {
                   </div>
                   <div className="flex justify-between items-center p-6 bg-gradient-to-r from-white to-sand/10 rounded-2xl hover:shadow-lg transition-all">
                     <span className="text-lg font-medium text-ink">
-                      מעורב ירושלמי (1 ק"ג)
+                      מעורב ירושלמי (1 ק&rdquo;ג)
                     </span>
                     <span className="text-xl font-bold text-gold">₪120</span>
                   </div>
                   <div className="flex justify-between items-center p-6 bg-gradient-to-r from-white to-sand/10 rounded-2xl hover:shadow-lg transition-all">
                     <span className="text-lg font-medium text-ink">
-                      שווארמה פרגית (1 ק"ג)
+                      שווארמה פרגית (1 ק&rdquo;ג)
                     </span>
                     <span className="text-xl font-bold text-gold">₪140</span>
                   </div>
                   <div className="flex justify-between items-center p-6 bg-gradient-to-r from-white to-sand/10 rounded-2xl hover:shadow-lg transition-all">
                     <span className="text-lg font-medium text-ink">
-                      כבדי עוף ברוטב יין (1 ק"ג)
+                      כבדי עוף ברוטב יין (1 ק&rdquo;ג)
                     </span>
                     <span className="text-xl font-bold text-gold">₪100</span>
                   </div>
@@ -125,7 +125,7 @@ export default function MenuPage() {
                   </div>
                   <div className="flex justify-between items-center p-6 bg-gradient-to-r from-white to-sand/10 rounded-2xl hover:shadow-lg transition-all">
                     <span className="text-lg font-medium text-ink">
-                      קציצות בקר ברוטב עגבניות (1 ק"ג)
+                      קציצות בקר ברוטב עגבניות (1 ק&rdquo;ג)
                     </span>
                     <span className="text-xl font-bold text-gold">₪120</span>
                   </div>
@@ -149,7 +149,7 @@ export default function MenuPage() {
                   </div>
                   <div className="flex justify-between items-center p-6 bg-gradient-to-r from-white to-sand/10 rounded-2xl hover:shadow-lg transition-all">
                     <span className="text-lg font-medium text-ink">
-                      בשר ראש בטיבול פיקנטי (1 ק"ג)
+                      בשר ראש בטיבול פיקנטי (1 ק&rdquo;ג)
                     </span>
                     <span className="text-xl font-bold text-gold">₪200</span>
                   </div>
@@ -161,13 +161,13 @@ export default function MenuPage() {
                   </div>
                   <div className="flex justify-between items-center p-6 bg-gradient-to-r from-white to-sand/10 rounded-2xl hover:shadow-lg transition-all">
                     <span className="text-lg font-medium text-ink">
-                      אסדו בלווי ירקות שורש (1 ק"ג)
+                      אסדו בלווי ירקות שורש (1 ק&rdquo;ג)
                     </span>
                     <span className="text-xl font-bold text-gold">₪180</span>
                   </div>
                   <div className="flex justify-between items-center p-6 bg-gradient-to-r from-white to-sand/10 rounded-2xl hover:shadow-lg transition-all">
                     <span className="text-lg font-medium text-ink">
-                      בשר בקר בלווי חומוס פיקנטי (1 ק"ג)
+                      בשר בקר בלווי חומוס פיקנטי (1 ק&rdquo;ג)
                     </span>
                     <span className="text-xl font-bold text-gold">₪150</span>
                   </div>
@@ -192,9 +192,9 @@ export default function MenuPage() {
                     <div className="w-8 h-px bg-gold"></div>
                   </div>
                   <div className="flex justify-between text-sm font-bold text-charcoal">
-                    <span>מחיר לק"ג</span>
-                    <span>מחיר ל-1 ק"ג</span>
-                    <span>מחיר ל-1/2-7 ק"ג</span>
+                    <span>מחיר לק&rdquo;ג</span>
+                    <span>מחיר ל-1 ק&rdquo;ג</span>
+                    <span>מחיר ל-1/2-7 ק&rdquo;ג</span>
                   </div>
                 </div>
 
@@ -206,22 +206,26 @@ export default function MenuPage() {
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="font-bold text-gold">1 ק"ג: ₪50</span>
                       <span className="font-bold text-gold">
-                        1/2-7 ק"ג: ₪30
+                        1 ק&rdquo;ג: ₪50
+                      </span>
+                      <span className="font-bold text-gold">
+                        1/2-7 ק&rdquo;ג: ₪30
                       </span>
                     </div>
                   </div>
                   <div className="p-6 bg-gradient-to-r from-white to-sand/10 rounded-2xl hover:shadow-lg transition-all">
                     <div className="flex justify-between items-center mb-2">
                       <span className="text-lg font-medium text-ink">
-                        אורז מג'דרה (עדשים ובצל מטוגן)
+                        אורז מג&rsquo;דרה (עדשים ובצל מטוגן)
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="font-bold text-gold">1 ק"ג: ₪60</span>
                       <span className="font-bold text-gold">
-                        1/2-7 ק"ג: ₪40
+                        1 ק&rdquo;ג: ₪60
+                      </span>
+                      <span className="font-bold text-gold">
+                        1/2-7 ק&rdquo;ג: ₪40
                       </span>
                     </div>
                   </div>
@@ -232,9 +236,11 @@ export default function MenuPage() {
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="font-bold text-gold">1 ק"ג: ₪60</span>
                       <span className="font-bold text-gold">
-                        1/2-7 ק"ג: ₪40
+                        1 ק&rdquo;ג: ₪60
+                      </span>
+                      <span className="font-bold text-gold">
+                        1/2-7 ק&rdquo;ג: ₪40
                       </span>
                     </div>
                   </div>
@@ -245,9 +251,11 @@ export default function MenuPage() {
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="font-bold text-gold">1 ק"ג: ₪60</span>
                       <span className="font-bold text-gold">
-                        1/2-7 ק"ג: ₪40
+                        1 ק&rdquo;ג: ₪60
+                      </span>
+                      <span className="font-bold text-gold">
+                        1/2-7 ק&rdquo;ג: ₪40
                       </span>
                     </div>
                   </div>
@@ -258,9 +266,11 @@ export default function MenuPage() {
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="font-bold text-gold">1 ק"ג: ₪70</span>
                       <span className="font-bold text-gold">
-                        1/2-7 ק"ג: ₪45
+                        1 ק&rdquo;ג: ₪70
+                      </span>
+                      <span className="font-bold text-gold">
+                        1/2-7 ק&rdquo;ג: ₪45
                       </span>
                     </div>
                   </div>
@@ -271,9 +281,11 @@ export default function MenuPage() {
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="font-bold text-gold">1 ק"ג: ₪60</span>
                       <span className="font-bold text-gold">
-                        1/2-7 ק"ג: ₪40
+                        1 ק&rdquo;ג: ₪60
+                      </span>
+                      <span className="font-bold text-gold">
+                        1/2-7 ק&rdquo;ג: ₪40
                       </span>
                     </div>
                   </div>
@@ -284,22 +296,26 @@ export default function MenuPage() {
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="font-bold text-gold">1 ק"ג: ₪70</span>
                       <span className="font-bold text-gold">
-                        1/2-7 ק"ג: ₪50
+                        1 ק&rdquo;ג: ₪70
+                      </span>
+                      <span className="font-bold text-gold">
+                        1/2-7 ק&rdquo;ג: ₪50
                       </span>
                     </div>
                   </div>
                   <div className="p-6 bg-gradient-to-r from-white to-sand/10 rounded-2xl hover:shadow-lg transition-all">
                     <div className="flex justify-between items-center mb-2">
                       <span className="text-lg font-medium text-ink">
-                        דואט תפ"א ובטטה אפויים
+                        דואט תפ&rdquo;א ובטטה אפויים
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="font-bold text-gold">1 ק"ג: ₪70</span>
                       <span className="font-bold text-gold">
-                        1/2-7 ק"ג: ₪50
+                        1 ק&rdquo;ג: ₪70
+                      </span>
+                      <span className="font-bold text-gold">
+                        1/2-7 ק&rdquo;ג: ₪50
                       </span>
                     </div>
                   </div>
@@ -310,9 +326,11 @@ export default function MenuPage() {
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="font-bold text-gold">1 ק"ג: ₪70</span>
                       <span className="font-bold text-gold">
-                        1/2-7 ק"ג: ₪50
+                        1 ק&rdquo;ג: ₪70
+                      </span>
+                      <span className="font-bold text-gold">
+                        1/2-7 ק&rdquo;ג: ₪50
                       </span>
                     </div>
                   </div>
@@ -339,7 +357,9 @@ export default function MenuPage() {
                     </svg>
                     <div className="w-8 h-px bg-gold"></div>
                   </div>
-                  <p className="text-lg font-bold text-charcoal">מחיר לק"ג</p>
+                  <p className="text-lg font-bold text-charcoal">
+                    מחיר לק&rdquo;ג
+                  </p>
                 </div>
 
                 <div className="space-y-6">
@@ -477,7 +497,9 @@ export default function MenuPage() {
                     </svg>
                     <div className="w-8 h-px bg-gold"></div>
                   </div>
-                  <p className="text-lg font-bold text-charcoal">מחיר לק"ג</p>
+                  <p className="text-lg font-bold text-charcoal">
+                    מחיר לק&rdquo;ג
+                  </p>
                 </div>
 
                 <div className="space-y-6">

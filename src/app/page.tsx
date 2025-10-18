@@ -275,8 +275,8 @@ export default function Home() {
               </div>
               <div className="bg-white p-6 sm:p-8 lg:p-10 rounded-3xl shadow-xl group-hover:shadow-2xl transition-all duration-300">
                 <p className="text-lg sm:text-xl text-ink leading-relaxed mb-6 sm:mb-8 italic mr-6 sm:mr-8">
-                  "המנות היו מדהימות! כל האורחים התפעלו מהטעמים והאיכות. השירות
-                  היה מקצועי וכל פרט טופל בצורה מושלמת."
+                  &ldquo;המנות היו מדהימות! כל האורחים התפעלו מהטעמים והאיכות.
+                  השירות היה מקצועי וכל פרט טופל בצורה מושלמת.&rdquo;
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-gold to-amber-600 rounded-full flex items-center justify-center mr-3 sm:mr-4">
@@ -309,8 +309,8 @@ export default function Home() {
               </div>
               <div className="bg-white p-6 sm:p-8 lg:p-10 rounded-3xl shadow-xl group-hover:shadow-2xl transition-all duration-300">
                 <p className="text-lg sm:text-xl text-ink leading-relaxed mb-6 sm:mb-8 italic mr-6 sm:mr-8">
-                  "התפריט היה מגוון וכל המנות היו טעימות מאוד. הצוות היה אדיב
-                  ועזר לנו בכל מה שנדרש. בהחלט נחזור!"
+                  &ldquo;התפריט היה מגוון וכל המנות היו טעימות מאוד. הצוות היה
+                  אדיב ועזר לנו בכל מה שנדרש. בהחלט נחזור!&rdquo;
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-gold to-amber-600 rounded-full flex items-center justify-center mr-3 sm:mr-4">

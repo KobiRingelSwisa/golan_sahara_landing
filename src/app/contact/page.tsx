@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import QuoteForm from "@/components/QuoteForm";
 
 export default function ContactPage() {
